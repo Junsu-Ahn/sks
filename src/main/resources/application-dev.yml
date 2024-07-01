@@ -1,0 +1,13 @@
+server:
+  port: 8090
+spring:
+  thymeleaf:
+    cache: false
+  output:
+    ansi:
+      enabled: always
+  datasource:
+    driver-class-name: org.mariadb.jdbc.Driver
+    url: jdbc:mariadb://127.0.0.1:3306/sksb_dev
+    username: root
+    password:

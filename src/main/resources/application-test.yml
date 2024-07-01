@@ -1,0 +1,5 @@
+datasource:
+  url: jdbc:h2:./sksb_test;MODE=MYSQL
+  username: root
+  password:
+  driver-class-name: org.h2.Driver
