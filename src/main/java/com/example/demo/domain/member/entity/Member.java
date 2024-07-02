@@ -38,7 +38,7 @@ public class Member {
     private String username;
     private String password;
 
-    public List<String> getAuthoritiesASStringList() {
+    public List<String> getAuthoritiesAsStringList() {
         return List.of("ROLE_MEMBER");
     }
 
